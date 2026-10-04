@@ -1,0 +1,47 @@
+/* ============================================================
+ * Sesiunea 2: CSS & DOM Selectors
+ * ============================================================
+ *
+ /* 1. Meniu Flexibil: Stilizare pentru clasa .navbar (Flexbox) și #logo*/
+
+ .navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px;
+ background-color: #f0f0f0;
+ }
+
+ #logo {
+  front-size: 24px;
+  front-weight: bold;
+  color: #333
+ }
+
+/* 2. Stări Dinamice: Selectori pentru :hover (butoane active) și :disabled (butoane inactive)*/
+
+ button:hover {
+  opacity:0.8;
+  transmition: 0.2s;
+ }
+
+ button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+ }
+ /* 3. Selectori Structurali: Stilizare pentru al 3-lea rând (tr:nth-child(3)) și .delete-row */
+
+ tr:nth-child(3) {
+  background-color: #e0e0e0;
+ }
+
+.delete-row {
+  cursor: pointer;
+  color: #fff;
+  background-color: e74c3c;
+  border: none;
+  padding: 5xp 10px;
+  border-radius: 4xp;
+}
+
+/* Scrie regulile CSS aici: */
